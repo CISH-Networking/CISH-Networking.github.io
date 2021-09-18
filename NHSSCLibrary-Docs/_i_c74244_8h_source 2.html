@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NHSSCLibrary: NHSSCLibrary/src/IC74244.h 原始程式檔</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NHSSCLibrary
+   &#160;<span id="projectnumber">0.0.1</span>
+   </div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_i_c74244_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">IC74244.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_i_c74244_8h.html">查看本檔案說明文件.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (c) 2021 CRT_HAO 張皓鈞</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *   All rights reserved.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *   CISH Robotics Team</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef IC74244_h</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define IC74244_h</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_i_c74244.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_i_c74244.html">IC74244</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="class_i_c74244.html#a3381a6c9087c247695bd58ec33c23a01">IC74244</a>(<span class="keywordtype">int</span> <a class="code" href="class_i_c74244.html#ae0ffededb20bb5e26e404862b474f6d6">enablePin</a>, <span class="keywordtype">int</span> <a class="code" href="class_i_c74244.html#ac0884bf8f1a2be6a36dce29dca6fab63">pinNum</a>, <span class="keywordtype">int</span>* <a class="code" href="class_i_c74244.html#ac922a3906f4e8c652f6b7cbae25c478f">pins</a>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_i_c74244.html#a18611656ae05fc3fc8d39a83ab236d40">set</a>(<span class="keywordtype">int</span> pin, <span class="keywordtype">bool</span> value);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_i_c74244.html#a3c6a9086ec652863c0198f5962ec818f">setAllHigh</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_i_c74244.html#a3706aba840f9cd24e4820d3be0a205bc">setAllLow</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_i_c74244.html#a84bc9b8c7563ab1ad8f193a4972ef564">setEnable</a>(<span class="keywordtype">bool</span> <a class="code" href="class_i_c74244.html#af4b9965879edb74db06ecd4138b68471">enable</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_i_c74244.html#af4b9965879edb74db06ecd4138b68471">enable</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_i_c74244.html#ae1ce77fb4169a5c47cf8dd147211ed20">disable</a>();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="class_i_c74244.html#ae0ffededb20bb5e26e404862b474f6d6">   61</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_i_c74244.html#ae0ffededb20bb5e26e404862b474f6d6">enablePin</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="class_i_c74244.html#ac0884bf8f1a2be6a36dce29dca6fab63">   62</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_i_c74244.html#ac0884bf8f1a2be6a36dce29dca6fab63">pinNum</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="class_i_c74244.html#ac922a3906f4e8c652f6b7cbae25c478f">   63</a></span>&#160;        <span class="keywordtype">int</span>* <a class="code" href="class_i_c74244.html#ac922a3906f4e8c652f6b7cbae25c478f">pins</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;};</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_i_c74244_html"><div class="ttname"><a href="class_i_c74244.html">IC74244</a></div><div class="ttdef"><b>Definition:</b> IC74244.h:9</div></div>
+<div class="ttc" id="aclass_i_c74244_html_a18611656ae05fc3fc8d39a83ab236d40"><div class="ttname"><a href="class_i_c74244.html#a18611656ae05fc3fc8d39a83ab236d40">IC74244::set</a></div><div class="ttdeci">void set(int pin, bool value)</div><div class="ttdoc">數位輸出</div><div class="ttdef"><b>Definition:</b> IC74244.cpp:22</div></div>
+<div class="ttc" id="aclass_i_c74244_html_a3381a6c9087c247695bd58ec33c23a01"><div class="ttname"><a href="class_i_c74244.html#a3381a6c9087c247695bd58ec33c23a01">IC74244::IC74244</a></div><div class="ttdeci">IC74244(int enablePin, int pinNum, int *pins)</div><div class="ttdoc">74LS244</div><div class="ttdef"><b>Definition:</b> IC74244.cpp:9</div></div>
+<div class="ttc" id="aclass_i_c74244_html_a3706aba840f9cd24e4820d3be0a205bc"><div class="ttname"><a href="class_i_c74244.html#a3706aba840f9cd24e4820d3be0a205bc">IC74244::setAllLow</a></div><div class="ttdeci">void setAllLow()</div><div class="ttdoc">設置全部腳位為低電位</div><div class="ttdef"><b>Definition:</b> IC74244.cpp:32</div></div>
+<div class="ttc" id="aclass_i_c74244_html_a3c6a9086ec652863c0198f5962ec818f"><div class="ttname"><a href="class_i_c74244.html#a3c6a9086ec652863c0198f5962ec818f">IC74244::setAllHigh</a></div><div class="ttdeci">void setAllHigh()</div><div class="ttdoc">設置全部腳位為高電位</div><div class="ttdef"><b>Definition:</b> IC74244.cpp:26</div></div>
+<div class="ttc" id="aclass_i_c74244_html_a84bc9b8c7563ab1ad8f193a4972ef564"><div class="ttname"><a href="class_i_c74244.html#a84bc9b8c7563ab1ad8f193a4972ef564">IC74244::setEnable</a></div><div class="ttdeci">void setEnable(bool enable)</div><div class="ttdoc">設置IC始能狀態</div><div class="ttdef"><b>Definition:</b> IC74244.cpp:38</div></div>
+<div class="ttc" id="aclass_i_c74244_html_ac0884bf8f1a2be6a36dce29dca6fab63"><div class="ttname"><a href="class_i_c74244.html#ac0884bf8f1a2be6a36dce29dca6fab63">IC74244::pinNum</a></div><div class="ttdeci">int pinNum</div><div class="ttdef"><b>Definition:</b> IC74244.h:62</div></div>
+<div class="ttc" id="aclass_i_c74244_html_ac922a3906f4e8c652f6b7cbae25c478f"><div class="ttname"><a href="class_i_c74244.html#ac922a3906f4e8c652f6b7cbae25c478f">IC74244::pins</a></div><div class="ttdeci">int * pins</div><div class="ttdef"><b>Definition:</b> IC74244.h:63</div></div>
+<div class="ttc" id="aclass_i_c74244_html_ae0ffededb20bb5e26e404862b474f6d6"><div class="ttname"><a href="class_i_c74244.html#ae0ffededb20bb5e26e404862b474f6d6">IC74244::enablePin</a></div><div class="ttdeci">int enablePin</div><div class="ttdef"><b>Definition:</b> IC74244.h:61</div></div>
+<div class="ttc" id="aclass_i_c74244_html_ae1ce77fb4169a5c47cf8dd147211ed20"><div class="ttname"><a href="class_i_c74244.html#ae1ce77fb4169a5c47cf8dd147211ed20">IC74244::disable</a></div><div class="ttdeci">void disable()</div><div class="ttdoc">設置IC為禁能</div><div class="ttdef"><b>Definition:</b> IC74244.cpp:46</div></div>
+<div class="ttc" id="aclass_i_c74244_html_af4b9965879edb74db06ecd4138b68471"><div class="ttname"><a href="class_i_c74244.html#af4b9965879edb74db06ecd4138b68471">IC74244::enable</a></div><div class="ttdeci">void enable()</div><div class="ttdoc">設置IC為始能</div><div class="ttdef"><b>Definition:</b> IC74244.cpp:42</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3fd8b754624ea8acead37daf91aac748.html">NHSSCLibrary</a></li><li class="navelem"><a class="el" href="dir_2e5040c5a03ec825e5ab533be26eb722.html">src</a></li><li class="navelem"><a class="el" href="_i_c74244_8h.html">IC74244.h</a></li>
+    <li class="footer">產生者: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

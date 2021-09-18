@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NHSSCLibrary: NHSSCLibrary/src/SevenDisplay.h 原始程式檔</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NHSSCLibrary
+   &#160;<span id="projectnumber">0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜尋');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_seven_display_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">SevenDisplay.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_seven_display_8h.html">查看本檔案說明文件.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (c) 2021 CRT_HAO 張皓鈞</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *   All rights reserved.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *   CISH Robotics Team</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef SevenDisplay_h</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define SevenDisplay_h</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_seven_display.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_seven_display.html">SevenDisplay</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="class_seven_display.html#ad37d69bd28f669efaaa82e052f9e2520">SevenDisplay</a>(<span class="keywordtype">int</span> pinA, <span class="keywordtype">int</span> pinB, <span class="keywordtype">int</span> pinC, <span class="keywordtype">int</span> pinD, <span class="keywordtype">int</span> pinE, <span class="keywordtype">int</span> pinF, <span class="keywordtype">int</span> pinG, <span class="keywordtype">int</span> pinH, <span class="keywordtype">int</span> scanPinNum=0, <span class="keywordtype">int</span>* scanPin=0);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="class_seven_display.html#ad37d69bd28f669efaaa82e052f9e2520">SevenDisplay</a>(<span class="keywordtype">int</span> pinA, <span class="keywordtype">int</span> pinB, <span class="keywordtype">int</span> pinC, <span class="keywordtype">int</span> pinD, <span class="keywordtype">int</span> pinE, <span class="keywordtype">int</span> pinF, <span class="keywordtype">int</span> pinG);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_seven_display.html#ad2b695cc3403948fa9971943a25196fa">setSymbol</a>(<span class="keywordtype">byte</span> symbol, <span class="keywordtype">int</span> displayPos=0);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_seven_display.html#a2c99d90371a960b63f8740eca31a0fe8">setNumber</a>(<span class="keywordtype">byte</span> number, <span class="keywordtype">int</span> displayPos=0);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_seven_display.html#acee8046293385e6b1cf6685568a185b7">setText</a>(<span class="keywordtype">char</span> text, <span class="keywordtype">int</span> displayPos=0);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_seven_display.html#a8f123ee94ba8541fcbd56954c5408e3e">show</a>(<span class="keywordtype">int</span> displayPos=0);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_seven_display.html#a45d2d03c98a252483d844b7db6bc7e6e">showAll</a>();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_seven_display.html#a1d7b9016bc7557384bf3a8fc3bfb5397">getSignal</a>(<span class="keywordtype">int</span> pinID, <span class="keywordtype">int</span> displayPos=0);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordtype">byte</span> <a class="code" href="class_seven_display.html#abffb7620950af4c5e156d8e1769556a5">getSignals</a>(<span class="keywordtype">int</span> displayPos=0);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">byte</span> <a class="code" href="class_seven_display.html#ace5370fb57f32bbc98468b1bd8bae24d">textToSymbol</a>(<span class="keywordtype">char</span> text);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">byte</span> <a class="code" href="class_seven_display.html#a4fb33cb286284cff2fe857405ee429b7">numberToSymbol</a>(<span class="keywordtype">int</span> number);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordtype">int</span>* pin;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordtype">int</span>* scanPin;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordtype">int</span> scanPinNum;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordtype">byte</span>* displayBuf;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;};</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_seven_display_html"><div class="ttname"><a href="class_seven_display.html">SevenDisplay</a></div><div class="ttdef"><b>Definition:</b> SevenDisplay.h:9</div></div>
+<div class="ttc" id="aclass_seven_display_html_a1d7b9016bc7557384bf3a8fc3bfb5397"><div class="ttname"><a href="class_seven_display.html#a1d7b9016bc7557384bf3a8fc3bfb5397">SevenDisplay::getSignal</a></div><div class="ttdeci">bool getSignal(int pinID, int displayPos=0)</div><div class="ttdoc">取得指定位置顯示符號的單個腳位訊號</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:121</div></div>
+<div class="ttc" id="aclass_seven_display_html_a2c99d90371a960b63f8740eca31a0fe8"><div class="ttname"><a href="class_seven_display.html#a2c99d90371a960b63f8740eca31a0fe8">SevenDisplay::setNumber</a></div><div class="ttdeci">void setNumber(byte number, int displayPos=0)</div><div class="ttdoc">設置數字到指定位置的暫存</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:98</div></div>
+<div class="ttc" id="aclass_seven_display_html_a45d2d03c98a252483d844b7db6bc7e6e"><div class="ttname"><a href="class_seven_display.html#a45d2d03c98a252483d844b7db6bc7e6e">SevenDisplay::showAll</a></div><div class="ttdeci">void showAll()</div><div class="ttdoc">顯示所有位置的暫存符號</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:115</div></div>
+<div class="ttc" id="aclass_seven_display_html_a4fb33cb286284cff2fe857405ee429b7"><div class="ttname"><a href="class_seven_display.html#a4fb33cb286284cff2fe857405ee429b7">SevenDisplay::numberToSymbol</a></div><div class="ttdeci">static byte numberToSymbol(int number)</div><div class="ttdoc">數字轉符號</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:54</div></div>
+<div class="ttc" id="aclass_seven_display_html_a8f123ee94ba8541fcbd56954c5408e3e"><div class="ttname"><a href="class_seven_display.html#a8f123ee94ba8541fcbd56954c5408e3e">SevenDisplay::show</a></div><div class="ttdeci">void show(int displayPos=0)</div><div class="ttdoc">顯示指定位置的暫存符號</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:106</div></div>
+<div class="ttc" id="aclass_seven_display_html_abffb7620950af4c5e156d8e1769556a5"><div class="ttname"><a href="class_seven_display.html#abffb7620950af4c5e156d8e1769556a5">SevenDisplay::getSignals</a></div><div class="ttdeci">byte getSignals(int displayPos=0)</div><div class="ttdoc">取得指定位置顯示符號的全部腳位訊號</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:125</div></div>
+<div class="ttc" id="aclass_seven_display_html_ace5370fb57f32bbc98468b1bd8bae24d"><div class="ttname"><a href="class_seven_display.html#ace5370fb57f32bbc98468b1bd8bae24d">SevenDisplay::textToSymbol</a></div><div class="ttdeci">static byte textToSymbol(char text)</div><div class="ttdoc">文字轉符號</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:58</div></div>
+<div class="ttc" id="aclass_seven_display_html_acee8046293385e6b1cf6685568a185b7"><div class="ttname"><a href="class_seven_display.html#acee8046293385e6b1cf6685568a185b7">SevenDisplay::setText</a></div><div class="ttdeci">void setText(char text, int displayPos=0)</div><div class="ttdoc">設置文字到指定位置的暫存</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:102</div></div>
+<div class="ttc" id="aclass_seven_display_html_ad2b695cc3403948fa9971943a25196fa"><div class="ttname"><a href="class_seven_display.html#ad2b695cc3403948fa9971943a25196fa">SevenDisplay::setSymbol</a></div><div class="ttdeci">void setSymbol(byte symbol, int displayPos=0)</div><div class="ttdoc">設置符號到指定位置的暫存</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:94</div></div>
+<div class="ttc" id="aclass_seven_display_html_ad37d69bd28f669efaaa82e052f9e2520"><div class="ttname"><a href="class_seven_display.html#ad37d69bd28f669efaaa82e052f9e2520">SevenDisplay::SevenDisplay</a></div><div class="ttdeci">SevenDisplay(int pinA, int pinB, int pinC, int pinD, int pinE, int pinF, int pinG, int pinH, int scanPinNum=0, int *scanPin=0)</div><div class="ttdoc">七段顯示器(掃描型)</div><div class="ttdef"><b>Definition:</b> SevenDisplay.cpp:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3fd8b754624ea8acead37daf91aac748.html">NHSSCLibrary</a></li><li class="navelem"><a class="el" href="dir_2e5040c5a03ec825e5ab533be26eb722.html">src</a></li><li class="navelem"><a class="el" href="_seven_display_8h.html">SevenDisplay.h</a></li>
+    <li class="footer">產生者: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>
